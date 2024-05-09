@@ -1,0 +1,11 @@
+step1-pwd
+step2-sudo su
+step3-yum update -y
+step4-yum install httpd -y
+step5-cd /var/www/html
+step6-vi index.html
+      Insert
+     ctrl +[
+     :wq
+step7-cat index.html
+step8-service httpd start
